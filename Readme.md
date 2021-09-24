@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Надежда Черноусова](https://up.htmlacademy.ru/htmlcss/32/user/1875067).
-* Наставник: [Максим Боровик] (https://htmlacademy.ru/profile/mouxez).
+* Наставник: [Максим Боровик](https://htmlacademy.ru/profile/mouxez).
 
 ---
 
