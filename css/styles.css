@@ -47,6 +47,17 @@ body {
   background-color: #ffffff;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .button {
   font-family: "Raleway", Arial, sans-serif;
   font-size: 18px;
@@ -60,6 +71,14 @@ body {
 }
 
 /* Header */
+.page-header {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-left: 60px;
+}
 
 .navigation {
   display: flex;
@@ -70,14 +89,16 @@ body {
   background-color: #FFE17F;
 }
 
-.navigation-user, .navigation-list {
+.navigation-user,
+.navigation-list {
   margin: 0;
   padding: 0;
   display: flex;
   width: 100%;
 }
 
-.navigation-link.navigation-search, .navigation-link.navigation-logout {
+.navigation-link.navigation-search,
+.navigation-link.navigation-logout {
   opacity: 0.3;
 }
 
@@ -111,6 +132,25 @@ body {
 }
 
 /* Slider */
+.slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-section-1,
+.slider-section-2 {
+  width: 560px;
+}
+
+.slider-details-pagination {
+  display: flex;
+}
+
+.slider-pagination {
+  display: flex;
+
+}
+
 .slider-number {
   font-size: 180px;
   font-weight: 800;
@@ -166,6 +206,16 @@ body {
 /* Services */
 .slider-features {
   background-color: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-features-section-1 {
+  width: 280px;
+}
+
+.slider-features-section-2 {
+  width: 760px;
 }
 
 .slider-features-pagination-button {
@@ -179,6 +229,11 @@ body {
   text-transform: uppercase;
 }
 
+.slider-features-pagination-button.chosen {
+  color: #FFE17F;
+  background-color: #000000;
+}
+
 .slider-features-title {
   font-family: "Raleway", Arial, sans-serif;
   font-size: 50px;
@@ -188,6 +243,10 @@ body {
 }
 
 /* Rare delivery */
+.rare-delivery {
+  display: flex;
+}
+
 .rare-delivery-order {
   font-family: "Raleway", Arial, sans-serif;
   font-size: 20px;
@@ -199,6 +258,7 @@ body {
   letter-spacing: 0.2em;
   text-decoration: none;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 /* About, contacts */
@@ -243,6 +303,9 @@ body {
 /* Subscription */
 .subscription {
   background-color: #F0F0F0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .subscription-call {
@@ -251,6 +314,25 @@ body {
   line-height: 50px;
   font-weight: 800;
   color: #000000;
+  width: 560px;
+}
+
+.subscription-about {
+  width: 560px;
+}
+
+.subscription-form {
+  display: flex;
+  width: 860px;
+}
+
+.form-subscription-email {
+  width: 600px;
+}
+
+.field {
+  opacity: 0.5;
+  width: 560px;
 }
 
 .subscription-submit {
@@ -262,6 +344,12 @@ body {
   color: #000000;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  width: 260px;
+  padding: 0;
+}
+
+.its-free{
+  width: 165px;
 }
 
 /* Footer */
