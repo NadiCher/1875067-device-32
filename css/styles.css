@@ -91,7 +91,7 @@ body {
 
 .navigation-user,
 .navigation-list {
-  margin: 0;
+  margin: 0 60px;
   padding: 0;
   display: flex;
   width: 100%;
@@ -427,6 +427,17 @@ body {
   line-height: 50px;
   font-weight: 800;
   color: #000000;
+  margin-left: 60px;
+}
+
+.breadcrumbs {
+  display: flex;
+  margin-left: 60px;
+  padding: 0;
+}
+
+.breadcrumbs-item {
+  margin-left: 0px;
 }
 
 .breadcrumbs-link {
@@ -438,8 +449,18 @@ body {
 }
 
 /* Filter, sorting */
-.filter, .sorting {
+.catalog-products {
+  display: flex;
+}
+
+.filter,
+.sorting {
   background-color: #EBEBEB;
+}
+
+.filter {
+  width: 330px;
+  margin-right: 70px;
 }
 
 .filter-title {
@@ -471,6 +492,10 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #000000;
+}
+
+.catalog-right-column {
+  width: 760px;
 }
 
 .sorting {
