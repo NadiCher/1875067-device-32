@@ -12,21 +12,21 @@
       <a href="index.html" title="На главную страницу">
         <img class="logo" src="images/logo/logo-main.svg" width="145" height="36" alt="Логотип магазина Девайс.">
       </a>
-      <nav class="navigation">
+      <nav class="navigation navigation-inner">
         <ul class="navigation-user">
-          <li class="navigation-item">
+          <li class="navigation-item search">
             <a class="navigation-link navigation-search" href="#" title="Поиск">Поиск по сайту</a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item user">
             <a class="navigation-link" href="#" title="Пользователь">Коля Петухов</a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item logout">
             <a class="navigation-link navigation-logout" href="#" title="Выйти">Выйти</a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item compare">
             <a class="navigation-link" href="#" title="Сравнить">Сравнить</a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item card">
             <a class="navigation-link" href="#" title="Корзина">Корзина</a>
           </li>
         </ul>
@@ -153,7 +153,7 @@
             <section class="sorting">
               <h3 class="visually-hidden">Сортировка</h3>
               <form class="sorting-type">
-                <label class="sorting">Сортировка:</label>
+                <label class="sorting-label">Сортировка:</label>
                 <select class="select-control" id="sorting" name="sorting">
                   <option value="popular">Сначала популярные</option>
                   <option value="cheap">Сначала дешевые</option>
@@ -161,10 +161,10 @@
                 </select>
                 <button class="visually-hidden" type="submit">Отсортировать продукты</button>
               </form>
-              <a href="#" class="sorting-button" title="По возрастанию">
+              <a href="#" class="sorting-button sorting-up" title="По возрастанию">
                 <span class="visually-hidden">Отсортировать по возрастанию</span>
               </a>
-              <a href="#" class="sorting-button" title="По убыванию">
+              <a href="#" class="sorting-button sorting-down" title="По убыванию">
                 <span class="visually-hidden">Отсортировать по убыванию</span>
               </a>
             </section>

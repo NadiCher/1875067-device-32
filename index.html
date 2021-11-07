@@ -12,16 +12,19 @@
       <img class="logo" src="images/logo/logo-main.svg" width="145" height="36" alt="Логотип магазина Девайс.">
       <nav class="navigation">
         <ul class="navigation-user">
-          <li class="navigation-item">
-            <a class="navigation-link navigation-search" href="#" title="Поиск">Поиск по сайту</a>
+          <li class="navigation-item search">
+            <form class="navigation-search" action="https//echo.htmlacademy.ru" method="get">
+              <label class="visually-hidden" for="search">Поиск по сайту</label>
+              <input type="search" name="search" id="search" placeholder="Поиск по сайту">
+            </form>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item login">
             <a class="navigation-link" href="#" title="Войти">Войти</a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item compare">
             <a class="navigation-link" href="#" title="Сравнить">Сравнить</a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item card">
             <a class="navigation-link" href="#" title="Корзина">Корзина</a>
           </li>
         </ul>
@@ -48,6 +51,8 @@
         <h1 class="visually-hidden">Интернет-магазин гаджетов "Девайс"</h1>
   <!--Слайдер-->
         <section class="slider">
+          <p class="slider-number">01</p>
+          <div class="slider-content">
           <div class="slider-section-1">
             <h2 class="visually-hidden">Популярные товары</h2>
             <a href="#">
@@ -61,10 +66,9 @@
             </button>
           </div>
           <div class="slider-section-2">
-            <p class="slider-number">01</p>
             <p class="slider-high">Порхает как бабочка,<br>жалит как пчела!</p>
-            <p>Этот обычный, на первый взгляд, квадрокоптер оснащен<br>мощным лазером, замаскированным под стандартную камеру.</p>
-            <div class="slider-details-pagination">
+            <p class="slider-description">Этот обычный, на первый взгляд, квадрокоптер оснащен<br>мощным лазером, замаскированным под стандартную камеру.</p>
+
               <a class="button" href="#" title="Подробнее">Подробнее</a>
               <ol class="slider-pagination">
                 <li class="slider-pagination-item">
@@ -78,15 +82,15 @@
                   </button>
                 </li>
                 <li class="slider-pagination-item">
-                  <button class="slider-pagination-buttont" type="button">
+                  <button class="slider-pagination-button" type="button">
                     <span class="visually-hidden">3 товар</span>
                   </button>
                 </li>
               </ol>
-            </div>
+
             <table class="slider-table">
               <tr class="slider-table row-1">
-                <td>800 м</td>
+                <td class="table-first-column">800 м</td>
                 <td>50 м</td>
               </tr>
               <tr class="slider-table row-2">
@@ -95,6 +99,7 @@
               </tr>
             </table>
           </div>
+        </div>
         </section>
   <!--Категории-->
         <section class="categories">
@@ -190,7 +195,7 @@
             <a class="delivery-list-link" href="#" title="ТоксБерри">ТоксБерри</a>
           </li>
         </ul>
-        <a class="button" href="#" title="Подробнее">Подробнее о нас</a>
+        <a class="button about-button" href="#" title="Подробнее">Подробнее о нас</a>
           </section>
   <!--Контакты-->
           <section class="contacts">
@@ -206,7 +211,7 @@
           <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
           <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
         </ul>
-        <a class="button" href="#" title="Напишите нам">Напишите нам</a>
+        <a class="button contacts-button" href="#" title="Напишите нам">Напишите нам</a>
           </section>
         </div>
   <!--Подписка на рассылку-->
